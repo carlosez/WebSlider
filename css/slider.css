@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {
+	color:#999;
+	text-decoration:none;
+}
+a:visited {
+	color:#999;
+	text-decoration:none;
+}
+a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+a:active {
+	color:#999;
+	text-decoration:none;
+}
+html{
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-color:#000;
+	background-position:center top;
+}
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	overflow:hidden;
+}
+.bold-white{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#ddd;
+}
+#wrapper{
+	width:990px;
+	height:500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main-left{
+	width:643px;
+	height:280px;
+	float:left;
+}
+#empty{
+	width:91px;
+	height:200px;
+	float:left;
+}
+#left-arrow{
+	width:53px;
+	height:84px;
+	float:left;
+	background-image:url(../images/arrow_left.png);
+	background-repeat:no-repeat;
+	margin-top:212px;
+}
+#main-content-wrap{
+	width:492px;
+	height:350px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	margin-top:104px;
+}
+.images{
+	float:left;
+	position:absolute;
+	left:493px;
+	width:493px;
+	height:280px;
+}
+
+#image-0{
+	background-image:url(../images/disney.jpg);
+	background-repeat:no-repeat;
+}
+#image-1{
+	background-image:url(../images/genji.jpg);
+	background-repeat:no-repeat;
+}
+#image-2{
+	background-image:url(../images/warhawk.jpg);
+	background-repeat:no-repeat;
+}
+#image-3{
+	background-image:url(../images/nba08.jpg);
+	background-repeat:no-repeat;
+}
+#image-4{
+	background-image:url(../images/mlb08.jpg);
+	background-repeat:no-repeat;
+}
+#image-5{
+	background-image:url(../images/granTurismo.jpg);
+	background-repeat:no-repeat;
+}
+#image-6{
+	background-image:url(../images/heavenly.jpg);
+	background-repeat:no-repeat;
+}
+#image-7{
+	background-image:url(../images/parapa.jpg);
+	background-repeat:no-repeat;
+}
+#image-shadow{
+	float:left;
+	position:absolute;
+	left:0px;
+	width:493px;
+	height:75px;
+	top:275px;
+	background-image:url(../images/feature_shadow.png);
+	background-repeat:no-repeat;
+}
+#image-shadow2{
+	float:left;
+	position:absolute;
+	left:493px;
+	width:493px;
+	height:75px;
+	top:275px;
+	background-image:url(../images/feature_shadow.png);
+	background-repeat:no-repeat;
+}
+
+
+
+#main-right{
+	width:202px;
+	height:300px;
+	float:left;
+}
+#top-bar{
+	width:189px;
+	height:253px;
+	background-image:url(../images/top_bar.png);
+	position:relative;
+}
+#header-text{
+	position:absolute;
+	width:170px;
+	height:auto;
+	bottom:3px;
+	text-align:left;
+	padding-left:9px;
+	color:#ddd;
+	font-size:20px;
+	overflow:hidden;
+	line-height:22px;
+	font-family:"myFutura", verdana, helvetica, sans-serif;
+}
+#body-text{
+	color:#888;
+	text-align:left;
+	font-size:12px;
+	padding-left:9px;
+	padding-right:9px;
+	padding-top:3px;
+}
+#bottom-bar{
+	clear-left;
+	margin-top:4px;
+	width:189px;
+	height:257px;
+	background-image:url(../images/bottom_bar.png);
+}
+
+#right-arrow{
+	margin-top:212px;
+	float:left;
+	width:54px;
+	height:84px;
+	background-image:url(../images/arrow_right.png);
+	background-repeat:no-repeat;
+}
