@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+h1 {
+  font-weight: bold;
+  color: #ddd;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #ddd;
+  font-size: 24px;
+}
 a:link {
 	color:#999;
 	text-decoration:none;
@@ -18,10 +29,10 @@ a:active {
 	text-decoration:none;
 }
 html{
-	background-image:url(../images/bg.jpg);
-	background-repeat:no-repeat;
-	background-color:#000;
-	background-position:center top;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	background-position: center top;
 }
 body{
 	margin:0;
@@ -78,35 +89,35 @@ body{
 }
 
 #image-0{
-	background-image:url(../images/disney.jpg);
+	background-image:url(../images/sonycc.jpg);
 	background-repeat:no-repeat;
 }
 #image-1{
-	background-image:url(../images/genji.jpg);
+	background-image:url(../images/istmofest.jpg);
 	background-repeat:no-repeat;
 }
 #image-2{
-	background-image:url(../images/warhawk.jpg);
+	background-image:url(../images/pilsener.jpg);
 	background-repeat:no-repeat;
 }
 #image-3{
-	background-image:url(../images/nba08.jpg);
+	background-image:url(../images/datum.jpg);
 	background-repeat:no-repeat;
 }
 #image-4{
-	background-image:url(../images/mlb08.jpg);
+	background-image:url(../images/sonycc.jpg);
 	background-repeat:no-repeat;
 }
 #image-5{
-	background-image:url(../images/granTurismo.jpg);
+	background-image:url(../images/istmofest.jpg);
 	background-repeat:no-repeat;
 }
 #image-6{
-	background-image:url(../images/heavenly.jpg);
+	background-image:url(../images/pilsener.jpg);
 	background-repeat:no-repeat;
 }
 #image-7{
-	background-image:url(../images/parapa.jpg);
+	background-image:url(../images/datum.jpg);
 	background-repeat:no-repeat;
 }
 #image-shadow{
